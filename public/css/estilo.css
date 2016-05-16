@@ -1,0 +1,281 @@
+@font-face {
+	font-family: 'chalk';
+	src: url('../fonts/DK Cool Crayon.ttf') format('truetype');	
+}
+.titles{
+	color: #DDAD2A;
+}
+.logo{	
+	float: left;
+	margin-left: 15px;
+}
+.contenidos{
+	margin-top: 10px;	
+}
+.container-fluid{		
+}
+.ans{
+	margin-left: 10%;
+}
+.form-group{
+	width: 100%;
+	font-size: 20px;
+}
+
+.form-control{
+	width: 100% !important;
+	color: #999;
+}
+
+.enviar{
+	width: 100%;
+	text-align: right;
+	margin-top: 20px;
+	padding-right: 15px;
+}
+
+.enviar #enviar{
+	display: inline-block;
+	
+}
+.info{
+	font-size: 14px;
+}
+
+div.centrado{
+	width: 100%;
+	max-width: 960px;
+	margin: 0 auto;
+	border: solid 1px red;
+	min-height: 400px;
+	margin-top: 80px;
+}
+
+.menu{
+	display: inline-block;
+	float: right;
+	min-width: 120px;
+	width: 20%;
+	min-height: 200px;
+	border: solid 1px yellow;
+}
+
+.contenido{
+	display: inline-block;
+	float: left;
+	width: 80%;
+	min-height: 200px;
+	border: solid 1px green;
+
+}
+
+label.error{
+	color:#ff0000;
+	font-size: 10px;
+	font-style: sans-serif;
+}
+.rojo{border: solid 1px red;}
+.azul{border: solid 1px blue;}
+
+.toolbar-custom{
+	display: inline-block;
+	width: 100%;
+	margin: 10px 0px;
+}
+
+.toolbar-custom .btn{
+	margin: 0px 5px;
+}
+
+.table-bordered .titulos{
+	text-align: center;
+	font-weight: bold;
+	font-size: 16px;
+}
+
+#Enviar{
+	padding: 8px;
+	margin-left:10px;
+}
+h1.centrado{
+	text-align: center;
+}
+.content-max-width{
+	width: 100%;
+	margin:0 auto;
+	display: inline-block;
+}
+.form-control{
+	background-color: #0B5445;
+    border: 3px solid #DDAD2A;
+    color: #fff;
+    text-shadow: none;
+}
+.register{
+	text-align: left;
+}
+.space{
+	padding-top: 10px;
+}
+.btn{
+	background-color: #0B5445;
+    border: 3px solid #DDAD2A;
+    color: #fff;
+    text-shadow: none;
+    font-size: 15px;
+}
+.title{
+	font-size: 60px;
+}
+.areg{
+	color: #8D99A5;
+}
+/*
+cover
+*/
+a, a:focus, a:hover {
+    color: #fff;
+}
+.btn-default, .btn-default:hover, .btn-default:focus {
+    background-color: #0B5445;
+    border: 3px solid #fff;
+    color: #fff;
+    text-shadow: none;
+    font-size: 20px;
+}
+html, body {
+	background-color: #0B5445;
+   /* background-image: url("../img/inibgr.jpg");*/
+    height: 100%;
+}
+body {
+    color: #fff;
+    text-align: center;
+    text-shadow: 0 1px 3px rgba(0, 0, 0, 0.5);   
+    font-family: 'chalk', Fallback, sans-serif;
+}
+.site-wrapper {
+    box-shadow: 0 0 100px rgba(0, 0, 0, 0.5) inset;
+    display: table;
+    height: 100%;
+    min-height: 100%;
+    width: 100%;
+    background-color: #0B5445;
+}
+.site-wrapper-inner {
+    display: table-cell;
+    vertical-align: top;
+}
+.cover-heading{
+	font-size: 80px;
+	color: #DDAD2A;
+}
+.lead{
+	font-size: 25px;
+}
+.cover-container {
+    margin-left: auto;
+    margin-right: auto; 
+}
+.inner {
+    padding: 30px;
+}
+.masthead-brand {
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
+
+@media (min-width: 768px) {
+.masthead-brand {
+    float: left;
+}
+
+}
+.cover {
+    padding: 0 20px;
+    
+}
+.cover .btn-lg {
+    font-weight: bold;
+    padding: 10px 20px;
+}
+.mastfoot {
+    color: rgba(255, 255, 255, 0.5);
+}
+
+input[type="text"]{
+	min-width: 30%;
+}
+@media (min-width: 768px) {
+.mastfoot {
+    bottom: 0;
+    position: fixed;
+}
+.site-wrapper-inner {
+    vertical-align: middle;
+}
+.mastfoot, .cover-container {
+    width: 100%;
+}
+}
+@media (min-width: 992px) {
+.mastfoot, .cover-container {
+    width: 700px;
+}
+}
+/*
+Sign in
+*/
+
+.form-signin {
+  max-width: 330px;
+  padding: 15px;
+  margin: 0 auto;
+}
+
+.form-signin .form-control {
+  position: relative;
+  height: auto;
+  -webkit-box-sizing: border-box;
+     -moz-box-sizing: border-box;
+          box-sizing: border-box;
+  padding: 10px;
+  font-size: 16px;
+}
+.form-signin .form-control:focus {
+  z-index: 2;
+}
+.form-signin input[type="user"] {
+  margin-bottom: -1px;
+  border-bottom-right-radius: 0;
+  border-bottom-left-radius: 0;
+}
+.form-signin input[type="password"] {
+  margin-bottom: 10px;
+  border-top-left-radius: 0;
+  border-top-right-radius: 0;
+}
+.login{
+	margin-top: 30px;
+	margin-bottom: 10px;
+}
+/*Respuestas*/
+.ans{
+	display: table-row;
+}
+.checkbox{
+	font-size: 13px;
+}
+.table{
+
+}
+.mainmenu{
+	margin-left: 30%;
+	
+}
+.btnmenu{
+	width: 100%;
+	height: 60px;
+	font-size: 20px;
+	margin-top: 10px;
+}
